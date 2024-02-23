@@ -1,0 +1,107 @@
+html{
+    background-color: #281f31;
+    color: #fff;
+    height: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+button{
+    border-radius: 8px 8px;
+    background-color: #fff;
+    color: #281f31;
+    padding: 5px 8px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+button:hover
+{
+    background-color: #bcacf4;
+    border-color: #bcacf4;
+}
+header{
+    position: relative;
+    width: 100%;
+	transform: skewY(-3.5deg);
+    height: 13em;
+    bottom: 5em;
+	background: 
+		linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+		url(https://images.unsplash.com/photo-1495464101292-552d0b52fe41?auto=format&fit=crop&w=1350&q=80) no-repeat center,
+		linear-gradient(#4e4376, #2b5876);
+	background-size: cover;
+	border-bottom: .2em solid #fff;
+}
+h1{
+    transform: skewY(3.5deg);
+    position: relative;
+    top: 3em;
+    font-weight:900;
+}
+nav{
+    position: relative;
+    top: 5em;
+    transform: skewY(3.5deg);
+    font-size: large;
+}
+a{
+    color: #bcacf4;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{
+    color:#fff;
+}
+.wrapper{
+    margin: auto;
+    width: 60%;
+}
+article{
+    font-family:cursive;
+    color:rgb(33, 29, 73);
+    background-image: repeating-linear-gradient(white 0px, white 24px, steelblue 25px);
+    box-shadow: 5px 5px 5px 5px #000;
+}
+.chapter{
+    position: relative;
+    margin-left: 75px;
+    margin-right: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    border-left: red 2px solid;
+}
+#animacja{
+    display:flex;
+    border: #fff 3px solid;
+    padding: 10px;
+    justify-content: space-between;
+    box-shadow: 5px 5px 5px 5px #000;
+
+}
+#animacjaInfo{
+    background-color: #4e4376;
+    padding: 5px 20px;
+}
+footer{
+    position: relative;
+    top: 3em;
+    margin: auto;
+    width: 60%;
+}
+.left{
+    background-color: #17111c;
+    width:500px;
+    margin:50px ;
+    float:right;
+    top:-40px;
+}
+#paramInfo{
+    font-size: large;
+    line-height: 1.75;
+}
+#paramEdit{
+    font-size: large;
+}
+.login{
+    font-size: large;
+}
